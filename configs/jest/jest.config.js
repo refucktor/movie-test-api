@@ -25,5 +25,4 @@ module.exports = {
 	coveragePathIgnorePatterns: ['/node_modules/', '<rootDir>/src/migrations/'],
 	coverageReporters: ['text', 'lcov'],
 	collectCoverageFrom: ['<rootDir>/src/**/*.{js,jsx,ts,tsx}', '!**/node_modules/**', '!**/build/**'],
-	testResultsProcessor: 'jest-sonar-reporter',
 };
