@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"strict": true,
+		"strictPropertyInitialization": true,
+		"baseUrl": "./",
+		"paths": {
+			"@models": ["src/models"],
+			"@models/*": ["src/models/*"],
+
+			"@resolvers": ["src/resolvers"],
+			"@resolvers/*": ["src/resolvers/*"],
+
+			"@setup": ["src/setup"],
+			"@setup/*": ["src/setup/*"],
+
+			"@utils": ["src/utils"],
+			"@utils/*": ["src/utils/*"]
+		},
+		"esModuleInterop": true,
+		"allowUmdGlobalAccess": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"exclude": ["node_modules"],
+	"include": ["**/*.ts", "**/*.js"]
+}

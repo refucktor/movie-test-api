@@ -1,0 +1,29 @@
+# Created by .ignore support plugin (hsz.mobi)
+# Jetbrains & VS Code
+.idea/
+*.iws
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# configurations & env. variables
+configs/env/.env
+/docker-compose.override.yml
+ormconfig.json
+/.reports/
+/configs/env/.env.heroku
+/configs/env/.env.local
+
+# nodejs
+node_modules

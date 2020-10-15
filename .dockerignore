@@ -1,0 +1,25 @@
+# Jetbrains & VS Code
+.idea/
+*.iws
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# configurations & env. variables
+/docker-compose.override.yml
+ormconfig.json
+/.reports/
+.gitlab-ci.yml
+
+# nodejs
+node_modules
